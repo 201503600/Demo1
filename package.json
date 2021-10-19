@@ -1,0 +1,20 @@
+{
+  "name": "conexion-sql-cloud",
+  "version": "1.0.0",
+  "description": "Prueba de conexion a sql cloud con cifrado ssl.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Cil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.13",
+    "promise-mysql": "^5.0.4"
+  }
+}

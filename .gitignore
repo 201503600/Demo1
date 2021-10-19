@@ -1,0 +1,5 @@
+node_modules
+certs/server-ca.pem
+certs/client-cert.pem
+certs/client-key.pem
+.env
